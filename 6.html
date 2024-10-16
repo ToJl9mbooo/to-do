@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--для подключений каких либо библеотек-->
+</head>
+<body>
+  <h1>TODO List Demo App</h1>
+  <div class="container">
+    <div class="input">
+      <input type="text" id='input' placeholder="Введите задачу"/>
+      <button id='btn_input'>Создать задачу</button>
+      <select class="todo__options">
+        <option value="active">активные</option>
+        <option value="completed">завершённые</option>
+        <option value="deleted">удалённые</option>
+      </select>
+    </div>
+  </div>
+<ol id="tasks"></ol>
+
+  <script src="./script.js"></script>
+</body>
+</html>
