@@ -18,9 +18,4 @@ c = document.querySelectorAll(".subsubcontent");
 d = document.querySelectorAll("#footer");
 // поиск по id(через решётку)
 
-tasks.push({
-	id: 2,
-	name: 'Сходить за молоком',
-	compleated: false,
-});
-console.log(tasks);
+
