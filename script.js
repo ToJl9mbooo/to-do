@@ -107,3 +107,5 @@ viewTask(tasks);
 
 button.onclick = addTask;
 // 1. вариант добавления события
+
+// комментарий
